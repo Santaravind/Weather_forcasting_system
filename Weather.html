@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <title>Weather app</title>
+    <link rel="stylesheet" href="Weatherstyles.css"> 
+  </head>
+  <body>
+    <div class="card">
+      <div class="first">Weather Today</div>
+        <div class="search">
+          <input  type="text" placeholder="enter the city name" spellcheck="false">
+          <button> <img src="images/search.png"></button>
+        </div>
+        <div class="error">
+          <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+          <img src="images/clouds.png" alt="" class="weather-icon">
+          <h1 class="temp">22°c</h1>       
+           <h2 class="city">Delhi</h2> 
+           <h3 class="country">India</h3>
+           <div class="details">
+               <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                         <p class="humidity">50%</p>
+                         <p>humidity </p>
+                    </div>
+               </div>
+               <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                         <p class="wind">15km/h</p>
+                         <p>Wind Speed</p>
+                    </div>
+               </div>
+           </div>    
+     </div>
+ </div>
+                
+    <script src="script.js">
+    </script>
+  </body>
+</html>
